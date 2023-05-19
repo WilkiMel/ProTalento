@@ -1,0 +1,89 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+ul {
+    font-size: 18px;
+    padding: 10px;
+}
+
+li{
+    border-bottom: 1px solid lightgray;
+    text-overflow: ellipsis;
+}
+
+li:hover {
+    background-color: lightgray;
+    cursor: pointer;
+  }
+
+li:focus {
+    background-color: lightcyan;
+    cursor: pointer;
+}
+
+li:checked {
+    margin-left: 25px;
+    border: 1px solid blue;
+  }
+
+#title1 {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.content-input input,
+.content-select select{
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+ 
+.content-input input{
+	visibility: hidden;
+	position: absolute;
+	right: 0;
+}
+
+.content-input{
+	position: relative;
+	margin-bottom: 10px;
+	padding:2px 0 5px 70px; /* Damos un padding de 60px para posicionar 
+        el elemento <i> en este espacio*/
+	display: block;
+}
+ 
+/* Estas reglas se aplicarán a todos las elementos i 
+después de cualquier input*/
+.content-input input + i{
+       background: #a24f4f;
+       border:2px solid rgba(0,0,0,0.2);
+       position: absolute; 
+       left: 0;
+       top: 0;
+}
+ 
+/* Estas reglas se aplicarán a todos los i despues 
+de un input de tipo checkbox*/
+.content-input input[type=checkbox ] + i{
+	width: 20px;
+	height: 10px;
+	border-radius: 10px;
+}
+
+.content-input input[type=checkbox] + i:before{
+	content: ''; /* No hay contenido */
+	width: 26px;
+	height: 26px;
+	background: #fff;
+	border-radius: 50%;
+	position: absolute;
+	z-index: 1;
+	left: 0px;
+	top: 0px;
+	-webkit-box-shadow: 3px 0 3px 0 rgba(0,0,0,0.2);
+	box-shadow: 3px 0 3px 0 rgba(0,0,0,0.2);
+}

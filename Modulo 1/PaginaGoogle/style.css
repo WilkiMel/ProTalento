@@ -1,0 +1,127 @@
+html {
+    text-align: center;
+    background-color: #202124;
+    color: #bdc1c6;
+}
+
+header {
+    width: 100%;
+    height: 179px;
+}
+
+.PadreBotonesDerecha {
+    font-family: arial,sans-serif;
+    font-weight:bold;
+    display: flex;
+    margin-left: 1200px;
+}
+
+.botonesDerecha {
+    background-color: #202124;
+    /* border: whitesmoke 2px solid;  */
+    font-size: 13px;
+    padding: 2%;
+    width: 30%;
+    height: 30px;
+    line-height: 0px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.botonesDerecha.botonMulti {
+    background-color: #202124;
+    width: 15%;
+    border: #202124 2% solid;
+}
+
+.imagenBotones {
+    width: 25px;
+    background-color: #bdc1c6;
+    margin-left: 5px;
+}
+
+.buscadorGoogle {
+    display: flex;
+    z-index: 3;
+    min-height: 44px;
+    border: 1px solid #5f6368;
+    background: #202124;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: auto;
+    width: 638px;
+    width: auto;
+    max-width: 584px;
+    margin-top: 25px;
+}
+
+.imagenLupa{
+    width: 20px;
+    height: 20px;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+.iconosGoogle1{
+    margin-left: 81%;
+    margin-top: 4px;
+}
+
+.iconosGoogle{
+    margin-top: 6px;
+    margin-left: 14px;
+}
+
+.containerBotones{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 560px;
+    color: white;
+    padding-bottom: 250px;
+}
+
+.botonesPrincipales{
+    width: 150px;
+    height: 30px;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    border: 1px #303134 solid;
+    background: #303134;
+    padding:  1px 5px;
+    line-height: 0px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 5%;
+}
+
+.voyATenerSuerte{
+    margin-left: 10px;
+}
+
+
+.primeraParte{
+    /* border: 2px whitesmoke solid; */
+    background-color: #171717;
+    width: 100%;
+    height: 45px;
+}
+
+.Colombia{
+    border-bottom: 3px solid #3c4043;
+    text-align: start;
+    vertical-align:middle;
+    padding: 11px 11px 18px 11px;
+    font-family: arial,sans-serif;
+}
+
+.segundaParte{
+    display: flex;
+    background: #171717;
+    /* border: 2px whitesmoke solid; */
+    width: 100%;
+    height: 45px;
+}
+
+.MenuFooter{
+    margin: 10px;
+}

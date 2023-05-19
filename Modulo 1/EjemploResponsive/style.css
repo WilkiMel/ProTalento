@@ -1,0 +1,15 @@
+.divInline{
+    display: block;
+}
+
+.divBorder{
+    border: 20px gold solid;
+}
+
+.divTall{
+    height: 40px;
+}
+
+.divAncho{
+    width: 70px;
+}

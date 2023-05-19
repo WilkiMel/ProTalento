@@ -1,0 +1,61 @@
+.chico.azul{
+    position: static;
+    border: gainsboro 10px solid;
+    border-bottom: 5px;
+    background-color: rgb(43, 120, 95);
+    width: 1300px;
+    height: 130px;
+}
+
+.grande.azul{
+    position: static;
+    border: gainsboro 10px solid;
+    border-bottom: 5px;
+    background-color: rgb(43, 120, 95);
+    width: 1300px;
+    height: 200px;
+}
+
+.container{
+    position: static;
+    border: gainsboro 10px solid;
+    border-bottom: 5px;
+    width: 1300px;
+    height: 200px;
+}
+
+.mediano.azul{
+    position: static;
+    border-right: gainsboro 7px solid;
+    background-color: rgb(43, 120, 95);
+    width: 642px;
+    height: 200px;
+}
+
+.mediano.azul.margin-derecho{
+    position: absolute;
+    border-left: gainsboro 7px solid;
+    background-color: rgb(43, 120, 95);
+    margin-top: 0px;
+    margin-left: 645px;
+    width: 650px;
+    height: 200px;
+}
+
+.grande.azul1{
+    position: static;
+    border: gainsboro 10px solid;
+    border-bottom: 5px;
+    background-color: rgb(43, 120, 95);
+    width: 1300px;
+    height: 200px;
+}
+
+.container1{
+    position: static;
+    border: gainsboro 10px solid;
+    border-bottom: 10px;
+    width: 1300px;
+    height: 200px;
+}
+

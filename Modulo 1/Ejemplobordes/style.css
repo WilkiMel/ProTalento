@@ -1,0 +1,66 @@
+#Title{
+    border: blue 10px solid;
+    padding: 20px 20px 20px 40px;
+}
+
+#subtitle{
+    border: pink 5px dashed;
+    padding-left: 250px;
+    margin-top: 300px;
+}
+
+#centertitle{
+    border: green 2px dotted;
+    width: 500px;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.insideblock{
+    display: block;
+}
+
+#container{
+    border: green 5px solid;
+    width: 1200px;
+    height: 700px;
+}
+
+#staticdiv{
+    position: static;
+    background-color: rebeccapurple;
+    border: black 5px solid;
+    width: 100px;
+    height: 100px;
+}
+
+#relativediv{
+    position: relative;
+    background-color: rebeccapurple;
+    border: black 5px solid;
+    width: 100px;
+    height: 100px;
+    top: 3px;
+    left: 150px;
+}
+
+#absolutediv{
+    position: absolute;
+    background-color: rebeccapurple;
+    border: black 5px solid;
+    width: 100px;
+    height: 100px;
+    top: 1100px;
+    left: 5px;
+}
+
+#stikydiv{
+    position: sticky;
+    background-color: rebeccapurple;
+    border: black 5px solid;
+    width: 100px;
+    height: 100px;
+    bottom: 20px;
+    left: 5px;
+}

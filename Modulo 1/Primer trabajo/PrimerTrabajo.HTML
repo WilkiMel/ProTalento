@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Hoja de Vida</title>
+    <link rel="stylesheet" href="estilos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+
+
+<body class="body">
+    <h1>Hoja de vida - Willinton David Guayambuco Guerrero</h1>
+    <div class="imagen"><img src="Willinton.jpg"></div>
+    <div id="main">
+        <div class="head2">
+            <legend>
+                <h3>Ingrese palabra a revisar</h3>
+            </legend>
+            <input type="text" id="texto" name="texto" placeholder="Ingrese palabra 1">
+            <input type="button" id="boton" name="boton" value="Revisar información" onclick="cuenta('texto');">
+        </div>
+        <div class="article">
+            <legend>
+                <h3>Ingrese palabra a revisar</h3>
+            </legend>
+            <input type="text" id="texto2" name="texto2" placeholder="Ingrese palabra 2">
+            <input type="button" id="boton" name="boton" value="Revisar información" onclick="cuenta('texto2')">
+        </div>
+
+    </div>
+
+    <footer class="respuestas">
+        <h3>Cantidad de letras</h3>
+        <div id="respuestaTotal"></div>
+    </footer>
+
+   
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+/* Nombre - Name */
+h1{
+    color: blue;
+}
+
+/* Clase - Class */
+.title{
+    color: crimson;
+}
+
+.fondo-de-bikini{
+    background-color: aqua;
+}
+
+/* ID - ID */
+#title-footer{
+    font-family: Arial, Helvetica, sans-serif;
+    color: blanchedalmond;
+}
