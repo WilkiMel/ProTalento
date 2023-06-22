@@ -1,0 +1,161 @@
+*{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3,Hiragino Kaku Gothic Pro,ãƒ¡ã‚¤ãƒªã‚ª,Meiryo,ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Ajuste del header ----------------------------------------------------*/
+/* estar pendiente de los flex */
+.containerBotones1{
+    display: flex;
+    margin-left: 0px;
+}
+
+.containerBotones2{
+    display: flex;
+}
+
+.containerBuscador{
+    display: flex;
+}
+
+.containerHeader{
+    display: flex;
+    padding: 7px 16px;
+  /*   border: black 2px solid; */
+    justify-content: space-around;
+}
+
+/* Recordar quitar ya que es solo prueba */
+.boton{
+   /*  border: black 2px solid; */
+    line-height: 43px;
+    align-items: center;
+    margin-left: 5%;
+}
+
+#imagenLogo{
+    width: 23px;
+}
+
+.boton.logo{
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+    border-radius: 60px;
+    line-height: 0%;
+}
+
+.boton.logo:hover{
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+    border-radius: 60px;
+    line-height: 0%;
+    background-color: #f0f0f0;
+}
+
+.boton.home{
+    width: 110px;
+    height: 49px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+    margin-right: 2px;
+}
+
+#imagenLupa{
+    width: 17px;
+    position: absolute;
+    margin-left: 17px;
+    margin-top: 15px;
+}
+
+.cuadroDeTexto{
+    background-color: #e9e9e9;
+    border: #e9e9e9 2px solid;
+    width: 980px;
+    height: 47px;
+    border-radius: 35px;
+    box-shadow: 0;
+}
+
+.boton.izquierda{
+    /* border: black 1px solid; */
+    margin: 9px 12px auto;
+}
+
+#imagenUser{
+    display: block;
+    margin-top: 6px;
+}
+
+#imagenDespliegue{
+    display: block;
+    margin-top: 9px;
+}
+
+/* Ajuste del main ---------------------------------------------------- */
+
+.ContainerMain{
+    /* border: black 1px solid; */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 2px 60px 20%;
+    padding: 0% 2%;
+}
+
+.imagenes1{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    flex-grow: 1;
+    /* border: black 1px solid; */
+    height: 350px;
+    width: 16%;
+    margin: 2%;
+}
+
+.imagenes:hover{
+    height: auto; /* Cambiar el tamaño de la imagen */
+    padding: 0%;
+    border-radius: 20px;
+    filter: brightness(50%);
+}
+
+.imagenes{
+    height: auto; /* Cambiar el tamaño de la imagen */
+    padding: 0%;
+    border-radius: 20px;
+}
+
+#video1{
+    border-radius: 20px;
+}
+
+.imagenes.imagen2{
+    height: 90%;
+}
+
+.imagenes.imagen4{
+    height: 90%;
+}
+
+.imagenes.imagen6{
+    height: 120%;
+}
+
+.imagenes.imagen7{
+    height: 80%;
+}
+
+.imagenes.imagen8{
+    height: 120%;
+}
+
+.imagenes.imagen9{
+    height: 80%;
+}
+

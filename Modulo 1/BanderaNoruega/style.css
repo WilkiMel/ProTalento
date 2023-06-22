@@ -1,0 +1,60 @@
+.bandera-flex {
+    display: block;
+    background-color: #00205B;
+    width: 440px;
+    height: 320px;
+}
+
+.blanco {
+    background-color: white;
+}
+
+.rojo {
+    background-color: #9c0000;
+}
+
+.arriba {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items:;
+    width: 440px;
+    height: 160px;
+}
+
+.abajo {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+    width: 440px;
+    height: 160px;
+}
+
+.pq {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    width: 140px;
+    height: 140px;
+}
+
+.gr {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-content: flex-start;
+    width: 260px;
+    height: 140px;
+}
+
+.pq2 {
+    width: 120px;
+    height: 120px;
+}
+
+.gr2 {
+    border: black 1px solid;
+    width: 240px;
+    height: 120px;
+    margin-left: 20px;
+}
