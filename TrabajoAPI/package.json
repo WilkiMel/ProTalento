@@ -1,0 +1,14 @@
+{
+  "name": "introduccionnpm",
+  "version": "1.0.0",
+  "description": "Este es un ejemplo para introducir a NPM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Willinton Guayambuco",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
